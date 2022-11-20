@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Guilded" Version="1.1.5" />
+      <PackageReference Include="Guilded.Commands" Version="1.1.5" />
+      <PackageReference Include="Guilded.Markdown" Version="1.1.5" />
+      <PackageReference Include="Jab" Version="0.8.4" />
+      <PackageReference Include="Samboy063.Tomlet" Version="5.0.0" />
+      <PackageReference Include="Serilog" Version="2.12.1-dev-01587" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="4.1.1-dev-00896" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Config\config.toml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Claptrap.Common\Claptrap.Common.csproj" />
+      <ProjectReference Include="..\Claptrap.Services.Abstractions\Claptrap.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\Claptrap.Services\Claptrap.Services.csproj" />
+    </ItemGroup>
+
+</Project>
