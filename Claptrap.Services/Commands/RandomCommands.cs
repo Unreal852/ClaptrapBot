@@ -1,4 +1,6 @@
-﻿using Claptrap.Services.Abstractions;
+﻿using System.Drawing;
+using Claptrap.Services.Abstractions;
+using Guilded.Base.Embeds;
 using Guilded.Commands;
 
 namespace Claptrap.Services.Commands;
@@ -11,16 +13,27 @@ public class RandomCommands : CommandModule, IGuildedCommand
     [Description("Roll a dice")]
     public Task DiceCommand(CommandEvent commandEvent)
     {
-        return commandEvent.ReplyAsync($"Dice rolled : {_random.Next(1, 7)}");
+        var embed = new Embed()
+                   .SetTitle("Dice")
+                   .SetDescription($"The dice rolled on face **{_random.Next(1, 7)}**")
+                   .SetColor(Color.Lime);
+        return commandEvent.ReplyAsync(embeds: embed);
     }
-    
+
     [Command("random", Aliases = new[] { "rand", "rdm" })]
-    public Task RandomCommand(CommandEvent commandEvent, int min, int max)
+    public Task RandomCommand(CommandEvent commandEvent, [CommandParam] int min, [CommandParam] int max)
     {
+        var embed = new Embed().SetTitle("Random");
         if (min <= 0 || max <= 0)
         {
-            return commandEvent.ReplyAsync($"Zero or negative numbers aren't allowed");
+            embed.SetDescription("**Zero or negative numbers aren't allowed**")
+                 .SetColor(Color.Red);
+
+            return commandEvent.ReplyAsync(embeds: embed, isPrivate: true);
         }
-        return commandEvent.ReplyAsync($"Random : {_random.Next(Math.Min(min, max), Math.Max(min, max) + 1)}");
+
+        embed.SetDescription($"Your random is **{_random.Next(Math.Min(min, max), Math.Max(min, max) + 1)}**")
+             .SetColor(Color.Lime);
+        return commandEvent.ReplyAsync(embeds: embed);
     }
 }
