@@ -1,0 +1,650 @@
+[
+  {
+    "Id": "Aatrox",
+    "Name": "Aatrox"
+  },
+  {
+    "Id": "Ahri",
+    "Name": "Ahri"
+  },
+  {
+    "Id": "Akali",
+    "Name": "Akali"
+  },
+  {
+    "Id": "Akshan",
+    "Name": "Akshan"
+  },
+  {
+    "Id": "Alistar",
+    "Name": "Alistar"
+  },
+  {
+    "Id": "Amumu",
+    "Name": "Amumu"
+  },
+  {
+    "Id": "Anivia",
+    "Name": "Anivia"
+  },
+  {
+    "Id": "Annie",
+    "Name": "Annie"
+  },
+  {
+    "Id": "Aphelios",
+    "Name": "Aphelios"
+  },
+  {
+    "Id": "Ashe",
+    "Name": "Ashe"
+  },
+  {
+    "Id": "AurelionSol",
+    "Name": "Aurelion Sol"
+  },
+  {
+    "Id": "Azir",
+    "Name": "Azir"
+  },
+  {
+    "Id": "Bard",
+    "Name": "Bard"
+  },
+  {
+    "Id": "Belveth",
+    "Name": "Bel\u0027Veth"
+  },
+  {
+    "Id": "Blitzcrank",
+    "Name": "Blitzcrank"
+  },
+  {
+    "Id": "Brand",
+    "Name": "Brand"
+  },
+  {
+    "Id": "Braum",
+    "Name": "Braum"
+  },
+  {
+    "Id": "Caitlyn",
+    "Name": "Caitlyn"
+  },
+  {
+    "Id": "Camille",
+    "Name": "Camille"
+  },
+  {
+    "Id": "Cassiopeia",
+    "Name": "Cassiopeia"
+  },
+  {
+    "Id": "Chogath",
+    "Name": "Cho\u0027Gath"
+  },
+  {
+    "Id": "Corki",
+    "Name": "Corki"
+  },
+  {
+    "Id": "Darius",
+    "Name": "Darius"
+  },
+  {
+    "Id": "Diana",
+    "Name": "Diana"
+  },
+  {
+    "Id": "Draven",
+    "Name": "Draven"
+  },
+  {
+    "Id": "DrMundo",
+    "Name": "Dr. Mundo"
+  },
+  {
+    "Id": "Ekko",
+    "Name": "Ekko"
+  },
+  {
+    "Id": "Elise",
+    "Name": "Elise"
+  },
+  {
+    "Id": "Evelynn",
+    "Name": "Evelynn"
+  },
+  {
+    "Id": "Ezreal",
+    "Name": "Ezreal"
+  },
+  {
+    "Id": "Fiddlesticks",
+    "Name": "Fiddlesticks"
+  },
+  {
+    "Id": "Fiora",
+    "Name": "Fiora"
+  },
+  {
+    "Id": "Fizz",
+    "Name": "Fizz"
+  },
+  {
+    "Id": "Galio",
+    "Name": "Galio"
+  },
+  {
+    "Id": "Gangplank",
+    "Name": "Gangplank"
+  },
+  {
+    "Id": "Garen",
+    "Name": "Garen"
+  },
+  {
+    "Id": "Gnar",
+    "Name": "Gnar"
+  },
+  {
+    "Id": "Gragas",
+    "Name": "Gragas"
+  },
+  {
+    "Id": "Graves",
+    "Name": "Graves"
+  },
+  {
+    "Id": "Gwen",
+    "Name": "Gwen"
+  },
+  {
+    "Id": "Hecarim",
+    "Name": "Hecarim"
+  },
+  {
+    "Id": "Heimerdinger",
+    "Name": "Heimerdinger"
+  },
+  {
+    "Id": "Illaoi",
+    "Name": "Illaoi"
+  },
+  {
+    "Id": "Irelia",
+    "Name": "Irelia"
+  },
+  {
+    "Id": "Ivern",
+    "Name": "Ivern"
+  },
+  {
+    "Id": "Janna",
+    "Name": "Janna"
+  },
+  {
+    "Id": "JarvanIV",
+    "Name": "Jarvan IV"
+  },
+  {
+    "Id": "Jax",
+    "Name": "Jax"
+  },
+  {
+    "Id": "Jayce",
+    "Name": "Jayce"
+  },
+  {
+    "Id": "Jhin",
+    "Name": "Jhin"
+  },
+  {
+    "Id": "Jinx",
+    "Name": "Jinx"
+  },
+  {
+    "Id": "Kaisa",
+    "Name": "Kai\u0027Sa"
+  },
+  {
+    "Id": "Kalista",
+    "Name": "Kalista"
+  },
+  {
+    "Id": "Karma",
+    "Name": "Karma"
+  },
+  {
+    "Id": "Karthus",
+    "Name": "Karthus"
+  },
+  {
+    "Id": "Kassadin",
+    "Name": "Kassadin"
+  },
+  {
+    "Id": "Katarina",
+    "Name": "Katarina"
+  },
+  {
+    "Id": "Kayle",
+    "Name": "Kayle"
+  },
+  {
+    "Id": "Kayn",
+    "Name": "Kayn"
+  },
+  {
+    "Id": "Kennen",
+    "Name": "Kennen"
+  },
+  {
+    "Id": "Khazix",
+    "Name": "Kha\u0027Zix"
+  },
+  {
+    "Id": "Kindred",
+    "Name": "Kindred"
+  },
+  {
+    "Id": "Kled",
+    "Name": "Kled"
+  },
+  {
+    "Id": "KogMaw",
+    "Name": "Kog\u0027Maw"
+  },
+  {
+    "Id": "KSante",
+    "Name": "K\u0027Sante"
+  },
+  {
+    "Id": "Leblanc",
+    "Name": "LeBlanc"
+  },
+  {
+    "Id": "LeeSin",
+    "Name": "Lee Sin"
+  },
+  {
+    "Id": "Leona",
+    "Name": "Leona"
+  },
+  {
+    "Id": "Lillia",
+    "Name": "Lillia"
+  },
+  {
+    "Id": "Lissandra",
+    "Name": "Lissandra"
+  },
+  {
+    "Id": "Lucian",
+    "Name": "Lucian"
+  },
+  {
+    "Id": "Lulu",
+    "Name": "Lulu"
+  },
+  {
+    "Id": "Lux",
+    "Name": "Lux"
+  },
+  {
+    "Id": "Malphite",
+    "Name": "Malphite"
+  },
+  {
+    "Id": "Malzahar",
+    "Name": "Malzahar"
+  },
+  {
+    "Id": "Maokai",
+    "Name": "Maokai"
+  },
+  {
+    "Id": "MasterYi",
+    "Name": "Master Yi"
+  },
+  {
+    "Id": "MissFortune",
+    "Name": "Miss Fortune"
+  },
+  {
+    "Id": "MonkeyKing",
+    "Name": "Wukong"
+  },
+  {
+    "Id": "Mordekaiser",
+    "Name": "Mordekaiser"
+  },
+  {
+    "Id": "Morgana",
+    "Name": "Morgana"
+  },
+  {
+    "Id": "Nami",
+    "Name": "Nami"
+  },
+  {
+    "Id": "Nasus",
+    "Name": "Nasus"
+  },
+  {
+    "Id": "Nautilus",
+    "Name": "Nautilus"
+  },
+  {
+    "Id": "Neeko",
+    "Name": "Neeko"
+  },
+  {
+    "Id": "Nidalee",
+    "Name": "Nidalee"
+  },
+  {
+    "Id": "Nilah",
+    "Name": "Nilah"
+  },
+  {
+    "Id": "Nocturne",
+    "Name": "Nocturne"
+  },
+  {
+    "Id": "Nunu",
+    "Name": "Nunu \u0026 Willump"
+  },
+  {
+    "Id": "Olaf",
+    "Name": "Olaf"
+  },
+  {
+    "Id": "Orianna",
+    "Name": "Orianna"
+  },
+  {
+    "Id": "Ornn",
+    "Name": "Ornn"
+  },
+  {
+    "Id": "Pantheon",
+    "Name": "Pantheon"
+  },
+  {
+    "Id": "Poppy",
+    "Name": "Poppy"
+  },
+  {
+    "Id": "Pyke",
+    "Name": "Pyke"
+  },
+  {
+    "Id": "Qiyana",
+    "Name": "Qiyana"
+  },
+  {
+    "Id": "Quinn",
+    "Name": "Quinn"
+  },
+  {
+    "Id": "Rakan",
+    "Name": "Rakan"
+  },
+  {
+    "Id": "Rammus",
+    "Name": "Rammus"
+  },
+  {
+    "Id": "RekSai",
+    "Name": "Rek\u0027Sai"
+  },
+  {
+    "Id": "Rell",
+    "Name": "Rell"
+  },
+  {
+    "Id": "Renata",
+    "Name": "Renata Glasc"
+  },
+  {
+    "Id": "Renekton",
+    "Name": "Renekton"
+  },
+  {
+    "Id": "Rengar",
+    "Name": "Rengar"
+  },
+  {
+    "Id": "Riven",
+    "Name": "Riven"
+  },
+  {
+    "Id": "Rumble",
+    "Name": "Rumble"
+  },
+  {
+    "Id": "Ryze",
+    "Name": "Ryze"
+  },
+  {
+    "Id": "Samira",
+    "Name": "Samira"
+  },
+  {
+    "Id": "Sejuani",
+    "Name": "Sejuani"
+  },
+  {
+    "Id": "Senna",
+    "Name": "Senna"
+  },
+  {
+    "Id": "Seraphine",
+    "Name": "Seraphine"
+  },
+  {
+    "Id": "Sett",
+    "Name": "Sett"
+  },
+  {
+    "Id": "Shaco",
+    "Name": "Shaco"
+  },
+  {
+    "Id": "Shen",
+    "Name": "Shen"
+  },
+  {
+    "Id": "Shyvana",
+    "Name": "Shyvana"
+  },
+  {
+    "Id": "Singed",
+    "Name": "Singed"
+  },
+  {
+    "Id": "Sion",
+    "Name": "Sion"
+  },
+  {
+    "Id": "Sivir",
+    "Name": "Sivir"
+  },
+  {
+    "Id": "Skarner",
+    "Name": "Skarner"
+  },
+  {
+    "Id": "Sona",
+    "Name": "Sona"
+  },
+  {
+    "Id": "Soraka",
+    "Name": "Soraka"
+  },
+  {
+    "Id": "Swain",
+    "Name": "Swain"
+  },
+  {
+    "Id": "Sylas",
+    "Name": "Sylas"
+  },
+  {
+    "Id": "Syndra",
+    "Name": "Syndra"
+  },
+  {
+    "Id": "TahmKench",
+    "Name": "Tahm Kench"
+  },
+  {
+    "Id": "Taliyah",
+    "Name": "Taliyah"
+  },
+  {
+    "Id": "Talon",
+    "Name": "Talon"
+  },
+  {
+    "Id": "Taric",
+    "Name": "Taric"
+  },
+  {
+    "Id": "Teemo",
+    "Name": "Teemo"
+  },
+  {
+    "Id": "Thresh",
+    "Name": "Thresh"
+  },
+  {
+    "Id": "Tristana",
+    "Name": "Tristana"
+  },
+  {
+    "Id": "Trundle",
+    "Name": "Trundle"
+  },
+  {
+    "Id": "Tryndamere",
+    "Name": "Tryndamere"
+  },
+  {
+    "Id": "TwistedFate",
+    "Name": "Twisted Fate"
+  },
+  {
+    "Id": "Twitch",
+    "Name": "Twitch"
+  },
+  {
+    "Id": "Udyr",
+    "Name": "Udyr"
+  },
+  {
+    "Id": "Urgot",
+    "Name": "Urgot"
+  },
+  {
+    "Id": "Varus",
+    "Name": "Varus"
+  },
+  {
+    "Id": "Vayne",
+    "Name": "Vayne"
+  },
+  {
+    "Id": "Veigar",
+    "Name": "Veigar"
+  },
+  {
+    "Id": "Velkoz",
+    "Name": "Vel\u0027Koz"
+  },
+  {
+    "Id": "Vex",
+    "Name": "Vex"
+  },
+  {
+    "Id": "Vi",
+    "Name": "Vi"
+  },
+  {
+    "Id": "Viego",
+    "Name": "Viego"
+  },
+  {
+    "Id": "Viktor",
+    "Name": "Viktor"
+  },
+  {
+    "Id": "Vladimir",
+    "Name": "Vladimir"
+  },
+  {
+    "Id": "Volibear",
+    "Name": "Volibear"
+  },
+  {
+    "Id": "Warwick",
+    "Name": "Warwick"
+  },
+  {
+    "Id": "Xayah",
+    "Name": "Xayah"
+  },
+  {
+    "Id": "Xerath",
+    "Name": "Xerath"
+  },
+  {
+    "Id": "XinZhao",
+    "Name": "Xin Zhao"
+  },
+  {
+    "Id": "Yasuo",
+    "Name": "Yasuo"
+  },
+  {
+    "Id": "Yone",
+    "Name": "Yone"
+  },
+  {
+    "Id": "Yorick",
+    "Name": "Yorick"
+  },
+  {
+    "Id": "Yuumi",
+    "Name": "Yuumi"
+  },
+  {
+    "Id": "Zac",
+    "Name": "Zac"
+  },
+  {
+    "Id": "Zed",
+    "Name": "Zed"
+  },
+  {
+    "Id": "Zeri",
+    "Name": "Zeri"
+  },
+  {
+    "Id": "Ziggs",
+    "Name": "Ziggs"
+  },
+  {
+    "Id": "Zilean",
+    "Name": "Zilean"
+  },
+  {
+    "Id": "Zoe",
+    "Name": "Zoe"
+  },
+  {
+    "Id": "Zyra",
+    "Name": "Zyra"
+  }
+]
