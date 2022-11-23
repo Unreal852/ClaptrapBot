@@ -7,13 +7,13 @@ namespace Claptrap.Services.Commands;
 
 public class RandomCommands : CommandModule, IGuildedCommand
 {
-    private readonly IConfigService _configService;
-    private readonly Random         _random = new();
-    private          LolChampion[]? _lolChampions;
+    private readonly Random        _random = new();
+    private readonly LolChampion[] _lolChampions;
 
     public RandomCommands(IConfigService configService)
     {
-        _configService = configService;
+        _lolChampions = configService.ReadDataSet<LolChampion[]>("lol_dataset") ??
+                        throw new Exception("Failed to load lol champions");
     }
 
     [Command("dice")]
@@ -48,13 +48,6 @@ public class RandomCommands : CommandModule, IGuildedCommand
     public Task RandomLoLChampionCommand(CommandEvent commandEvent)
     {
         var embed = new Embed().SetTitle("Random League of Legends champion");
-
-        _lolChampions ??= _configService.ReadDataSet<LolChampion[]>("lol_dataset");
-
-        if (_lolChampions == null)
-        {
-            throw new NullReferenceException(nameof(_lolChampions));
-        }
 
         var champion = _lolChampions[_random.Next(0, _lolChampions.Length)];
 
