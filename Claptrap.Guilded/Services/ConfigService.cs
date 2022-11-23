@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-using Claptrap.Common;
+using Claptrap.Config;
 using Claptrap.Services.Abstractions;
 using Tomlet;
 

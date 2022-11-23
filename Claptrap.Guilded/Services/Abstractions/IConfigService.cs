@@ -1,4 +1,4 @@
-﻿using Claptrap.Common;
+﻿using Claptrap.Config;
 
 namespace Claptrap.Services.Abstractions;
 

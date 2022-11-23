@@ -6,6 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>preview</LangVersion>
+        <RootNamespace>Claptrap</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,12 +26,6 @@
       <None Update="Config\lol_dataset.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Claptrap.Common\Claptrap.Common.csproj" />
-      <ProjectReference Include="..\Claptrap.Services.Abstractions\Claptrap.Services.Abstractions.csproj" />
-      <ProjectReference Include="..\Claptrap.Services\Claptrap.Services.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using Tomlet.Attributes;
 
-namespace Claptrap.Common;
+namespace Claptrap.Config;
 
 public class ClaptrapConfig
 {

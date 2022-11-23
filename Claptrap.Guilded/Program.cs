@@ -1,9 +1,9 @@
-﻿using Claptrap.Guilded.Services;
+﻿using Claptrap.Services;
 using Claptrap.Services.Abstractions;
 using Serilog;
 using Serilog.Sinks.SystemConsole.Themes;
 
-namespace Claptrap.Guilded;
+namespace Claptrap;
 
 internal static class Program
 {

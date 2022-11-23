@@ -1,5 +1,4 @@
 ﻿using System.Drawing;
-using Claptrap.Common.Random;
 using Claptrap.Services.Abstractions;
 using Guilded.Base.Embeds;
 using Guilded.Commands;
@@ -49,7 +48,6 @@ public class RandomCommands : CommandModule, IGuildedCommand
     public Task RandomLoLChampionCommand(CommandEvent commandEvent)
     {
         var embed = new Embed().SetTitle("Random League of Legends champion");
-        embed.Image = new EmbedMedia("http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Lux_0.jpg");
 
         _lolChampions ??= _configService.ReadDataSet<LolChampion[]>("lol_dataset");
 
@@ -62,8 +60,14 @@ public class RandomCommands : CommandModule, IGuildedCommand
 
         embed.SetDescription($"Your random champion is {champion.Name}, good luck !")
              .SetColor(Color.Lime)
-             .SetImage($"http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{champion.Id}_0.jpg");
+             .SetImage($"https://ddragon.leagueoflegends.com/cdn/img/champion/loading/{champion.Id}_0.jpg");
 
         return commandEvent.ReplyAsync(embeds: embed);
     }
+}
+
+public class LolChampion
+{
+    public string Id   { get; set; } = default!;
+    public string Name { get; set; } = default!;
 }

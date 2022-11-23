@@ -1,12 +1,11 @@
-﻿using Claptrap.Services;
-using Claptrap.Services.Abstractions;
+﻿using Claptrap.Services.Abstractions;
 using Claptrap.Services.Commands;
 using Jab;
 using Serilog;
 
 // ReSharper disable UnusedType.Local
 
-namespace Claptrap.Guilded.Services;
+namespace Claptrap.Services;
 
 [ServiceProvider]
 [Import(typeof(ICommandsProviderModule))]
