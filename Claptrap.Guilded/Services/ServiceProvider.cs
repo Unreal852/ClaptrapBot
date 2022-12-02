@@ -8,10 +8,10 @@ using Serilog;
 namespace Claptrap.Services;
 
 [ServiceProvider]
-[Import(typeof(ICommandsProviderModule))]
-[Singleton(typeof(ILogger), Instance = nameof(Logger))]
-[Singleton(typeof(IConfigService), typeof(ConfigService))]
-[Singleton(typeof(IGuildedService), typeof(GuildedService))]
+[Import<ICommandsProviderModule>]
+[Singleton<ILogger>(Instance = nameof(Logger))]
+[Singleton<IConfigService, ConfigService>]
+[Singleton<IGuildedService, GuildedService>]
 public partial class ServiceProvider
 {
     public static ServiceProvider Instance { get; private set; } = default!;
@@ -25,7 +25,7 @@ public partial class ServiceProvider
 }
 
 [ServiceProviderModule]
-[Singleton(typeof(IGuildedCommand), typeof(RandomCommands))]
+[Singleton<IGuildedCommand, RandomCommands>]
 file interface ICommandsProviderModule
 {
 }
