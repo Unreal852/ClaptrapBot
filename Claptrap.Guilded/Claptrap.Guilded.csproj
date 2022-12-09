@@ -13,7 +13,7 @@
       <PackageReference Include="Guilded" Version="1.2.0" />
       <PackageReference Include="Guilded.Commands" Version="1.2.0" />
       <PackageReference Include="Guilded.Markdown" Version="1.2.0" />
-      <PackageReference Include="Jab" Version="0.8.5" />
+      <PackageReference Include="Jab" Version="0.8.6" />
       <PackageReference Include="Samboy063.Tomlet" Version="5.0.1" />
       <PackageReference Include="Serilog" Version="2.12.1-dev-01594" />
       <PackageReference Include="Serilog.Sinks.Console" Version="4.1.1-dev-00896" />
